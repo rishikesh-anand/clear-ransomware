@@ -6,7 +6,7 @@
 - `crypto`
 - `base64`
 
-*Ransomware.py code is a script that implements a ransomware attack. Here's what it does, step by step:
+Ransomware.py code is a script that implements a ransomware attack. Here's what it does, step by step:
 
 List all files in the current directory: The script uses the os.listdir() method to get a list of all files in the current working directory. It then filters the list to exclude itself and another script file, and appends the remaining files to a list named files.
 
