@@ -25,6 +25,12 @@ The private RSA key is stored in the variable private_key and is used to encrypt
 
 The code then uses the Fernet module of the cryptography library to decrypt the contents of the files*
 
+The code then uses the Fernet module of the cryptography library to decrypt the contents of the files*
+
+Future Perspectives
+
+This decrypter would be decrypting many other ransomwares too which would help a lot of companies or organizations to be safe from such type of malwares
+
 **This Project for Hackthefall event is done by**:-
 
 - `Yash Mehta`
