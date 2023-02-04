@@ -5,7 +5,26 @@
 - `cryptography`
 - `crypto`
 - `base64`
+**Usage**
 
+- To start it:
+For windows
+`python3 ransomware.py`
+
+For mac or linux
+`python ransomware.py`
+
+- To use decrypter:
+Start server
+`python3 -m http.server 2009`
+
+To run this tool:
+- Copy the key form server 
+- Enter that key on line 25 between strings
+- Then run that code
+`python3 decrypt.py`
+
+**Usage**
 Ransomware.py code is a script that implements a ransomware attack. Here's what it does, step by step:
 
 List all files in the current directory: The script uses the os.listdir() method to get a list of all files in the current working directory. It then filters the list to exclude itself and another script file, and appends the remaining files to a list named files.
