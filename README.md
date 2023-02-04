@@ -7,7 +7,7 @@
 - `base64`
 **Usage**
 
-- To start it:
+To start it:
 For windows
 `python3 ransomware.py`
 
