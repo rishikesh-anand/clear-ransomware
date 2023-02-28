@@ -9,14 +9,15 @@
 
 To start it:
 For windows
-`python3 ransomware.py`
+`python ransomware.py`
 
 For mac or linux
-`python ransomware.py`
+`python3 ransomware.py`
 
 - To use decrypter:
 Start server
-`python3 -m http.server 2009`
+For Mac/linux `python3 -m http.server 2009`
+For Windows `python -m http.server 2009`
 
 To run this tool:
 - Copy the key form server 
